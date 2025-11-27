@@ -1,0 +1,62 @@
+* {
+/*Remise à zéro des marges  */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: teal;
+}
+
+#wrapper {
+/*Centré */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+/* Taille de la division */
+    width: 100vw;
+    height: 100vh;
+    border: 10px solid #603000;
+}
+
+h1 {
+    margin-bottom: 50px;
+    color: white;
+}
+
+button {
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 25%;
+    margin: 5px;
+    background-color: tan;
+    border-radius: 5px;
+    font-size: 1.25rem;
+}
+
+button:hover {
+    background-color: lightgreen;
+}
+
+p {
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: gainsboro;
+    font-size: 1.5rem;
+}
+
+span {
+/*Span en gras */
+    font-weight: bold;
+}
